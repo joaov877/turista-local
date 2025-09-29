@@ -29,6 +29,18 @@ header p {
   font-size: 1.1em;
 }
 
+/* Imagem decorativa */
+.caranguejo {
+  width: 100px;
+  margin-top: 1em;
+  animation: flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
 /* Conteúdo principal */
 main {
   flex: 1;
@@ -90,6 +102,14 @@ li img {
   margin-top: 0.5em;
 }
 
+/* Player de música */
+iframe {
+  margin-top: 2em;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
 /* Rodapé */
 footer {
   background: #e0e0e0;
@@ -109,19 +129,9 @@ footer {
     width: 100%;
   }
 
-  #map, li {
+  #map, li, iframe {
     max-width: 100%;
-  }.caranguejo {
-  width: 100px;
-  margin-top: 1em;
-  animation: flutuar 3s ease-in-out infinite;
-}
-
-@keyframes flutuar {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-
+  }
 }
 
 /* 🌙 Modo escuro (opcional)
@@ -140,3 +150,4 @@ li.dark {
   color: #ccc;
 }
 */
+

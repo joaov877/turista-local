@@ -12,7 +12,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  background: linear-gradient(135deg, #b9e5bb, #363836);
   color: white;
   padding: 2em 1em;
   text-align: center;
@@ -38,7 +38,7 @@ main {
 
 /* Botão */
 button {
-  background: #4CAF50;
+  background: #1d1d1d;
   color: white;
   border: none;
   padding: 1em 2em;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-  background: #388E3C;
+  background: #c00707;
 }
 
 /* Mapa */

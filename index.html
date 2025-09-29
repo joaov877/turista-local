@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turista Local</title>
+
+  <!-- Fonte moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- Manifesto PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4CAF50" />
+
+  <!-- Favicon opcional -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Leaflet.js para mapa -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌍 Mapa do turista Local</h1>
+    <p>Descubra lugares incríveis perto de você</p>
+  </header>
+
+  <main>
+    <button onclick="getLocation()">📍 Buscar Localização</button>
+    <div id="map"></div>
+    <ul id="places"></ul>
+  </main>
+
+  <footer>
+    <p>Descubra novos lugares</p>
+  </footer>
+
+  <!-- Script principal -->
+  <script src="app.js"></script>
+</body>
+</html>

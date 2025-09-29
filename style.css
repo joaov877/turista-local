@@ -12,7 +12,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background: linear-gradient(135deg, #b9e5bb, #363836);
+  background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
   color: white;
   padding: 2em 1em;
   text-align: center;
@@ -50,7 +50,7 @@ main {
 
 /* Botão */
 button {
-  background: #1d1d1d;
+  background: #000;
   color: white;
   border: none;
   padding: 1em 2em;
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-  background: #c00707;
+  background: #333;
 }
 
 /* Mapa */
@@ -140,10 +140,10 @@ body.dark {
   color: #eee;
 }
 header.dark {
-  background: #1b5e20;
+  background: #000;
 }
 button.dark {
-  background: #2e7d32;
+  background: #222;
 }
 li.dark {
   background: #1e1e1e;

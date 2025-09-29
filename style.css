@@ -111,7 +111,17 @@ footer {
 
   #map, li {
     max-width: 100%;
-  }
+  }.caranguejo {
+  width: 100px;
+  margin-top: 1em;
+  animation: flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
 }
 
 /* 🌙 Modo escuro (opcional)
